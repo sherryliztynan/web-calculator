@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <script> src = "./script.js" </script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
         <title>Sherron's Web Calculator</title>
     </head>
     <body>
-        <h1>Type your numbers here</h1>
-        <form> 
-            <input type = "number" name = "name">
-            <input type="submit">
-        </form>
+        <h1>Web Calculator</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Calculator_Flat_Icon_Vector.svg" alt="Calculator Image" width="300px" height="auto">
+        <h2>Type Your Numbers Here</h2>
+        <div id="calculator">
+            <input type="text" id="numberinput1"/>
+            <label for="operations">Choose an operation</label>
+            <select name="operations" id="operations">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+            <input type="text" id="numberinput2"/> 
+        </div>
+        <button id="compute" onclick="compute()" value="compute">Result</button> 
+        <span id="computation"></span>
+        <script src="./script.js"></script>
     </body>
 </html>

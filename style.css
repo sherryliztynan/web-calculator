@@ -1,0 +1,41 @@
+
+body{
+    background: #BAACBD;
+    text-align: center;
+    font: Martel;
+}
+h1{font: 40px Martel;}
+
+h2{font: 30px Martel;}
+
+input[type=text] {
+    width: 28%;
+    border-radius: 12px;
+    padding: 14px 28px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #C9C5CB;
+    color: rgb(0, 0, 0);
+  }
+label{font: 20px Martel;}
+button{
+    transition-duration: 0.4s;
+    background-color: #646E68;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    padding: 14px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font: 15px Martel;
+  }
+  button:hover{
+    background-color: #723167; /*Purple*/
+    color: rgb(0, 0, 0);
+  }
+span {
+  font: 30px Martel;
+  text-align: center;
+  width:200px;
+  margin-left:40px;}
