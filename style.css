@@ -17,6 +17,7 @@ input[type=text] {
     background-color: #C9C5CB;
     color: rgb(0, 0, 0);
   }
+label{font: 20px Martel;}
 button{
     transition-duration: 0.4s;
     background-color: #646E68;
@@ -33,4 +34,8 @@ button{
     background-color: #723167; /*Purple*/
     color: rgb(0, 0, 0);
   }
-
+span {
+  font: 30px Martel;
+  text-align: center;
+  width:200px;
+  margin-left:40px;}
